@@ -4,31 +4,15 @@
 
 Aperintel builds the substrate, the platform, and the developer infrastructure that regulated firms need to prove what their AI did, to whom, when, and on what evidence. We ship open-source primitives that anyone can inspect and audit, and commercial products on top that make those primitives operationally useful for FCA-regulated firms, NHS trusts, and EU AI Act high-risk systems.
 
-## Live products
+## Open source projects
 
-| Product | Status | Surface |
-|---|---|---|
-| [Aperintel](https://aperintel.com) | Live | The Aperintel front door |
-| [Aperintel AI Academy](https://academy.aperintel.com) | Live | Cohort-based AI engineering education |
-| [Aperintel AI Gateway](https://gateway.aperintel.com) | Live | Multi-provider AI router with per-request audit |
-| [TekkieStack](https://tekkiestack.com) | Live | Gamified coding education for ages 8 to 16 |
-| [Nexuscone](https://github.com/aperintel/nexuscone) | Live on PyPI (Apache 2.0) | Cryptographic audit substrate |
-| [NovaBash](https://novabash.dev) | Phase A complete | BYOK developer infrastructure platform |
+- [**Nexuscone**](https://github.com/aperintel/nexuscone) - tamper-evident append-only audit ledger with SHA-256 hash chain, optional Ed25519 signing, and optional Bitcoin anchoring via OpenTimestamps. Apache 2.0 on PyPI. The substrate underneath the Aperintel governance product family.
+- [**NovaBash**](https://github.com/aperintel/novabash) - BYOK developer infrastructure platform. One workspace, one encrypted vault, one `.env`, every third-party service your stack runs on. Apache 2.0. Phase A complete.
+- [**Mini-Assistant-Swarm**](https://github.com/aperintel/Mini-Assistant-Swarm) - fork-friendly personal subagent toolkit. VERIFIER-gated outputs, never sends on the operator's behalf, always writes to disk. Apache 2.0.
+- [**awesome-ai-governance**](https://github.com/aperintel/awesome-ai-governance) - curated list of resources for building, shipping, and auditing AI in regulated environments. Regulations, standards, OSS primitives, governance platforms, security tools. CC0.
+- [**regulated-ai-checklist**](https://github.com/aperintel/regulated-ai-checklist) - practitioner pre-deployment checklist for shipping AI in regulated environments. Governance, audit, security, data protection, monitoring, incident response, supply chain. CC BY 4.0.
 
-## In development
-
-| Product | Status | Note |
-|---|---|---|
-| Hyperaxis | Design-partner intake | AI governance platform for regulated industries. Three-pillar product: Discover, Govern, Sign. Built on Nexuscone. |
-| Hyperaxis Trace | Private build | Outcome verification on the same audit substrate. The second governance product on the Nexuscone family. |
-| Metacarpal | Private build | Governed-autonomy operating system. Both personal and enterprise on one auditable spine. |
-
-## Open source
-
-- [**Nexuscone**](https://github.com/aperintel/nexuscone) - tamper-evident append-only audit ledger with SHA-256 hash chain, optional Ed25519 signing, and optional Bitcoin anchoring via OpenTimestamps. Apache 2.0. The substrate underneath every Aperintel governance product.
-- [**NovaBash**](https://github.com/aperintel/novabash) - BYOK developer infrastructure platform. One workspace, one encrypted vault, one `.env`, every third-party service your stack runs on. Apache 2.0.
-
-More public repos are coming, including the [shared landing template](https://aperintel.com) used across the product family, the AI governance glossary, and the regulated-AI deployment checklist drawn from the Hyperaxis build guide.
+More open-source repos are on the way, including the shared landing template used across the product family and an AI governance glossary aligned to the EU AI Act vocabulary.
 
 ## Research
 
