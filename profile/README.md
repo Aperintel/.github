@@ -8,7 +8,7 @@ Every product we ship carries cryptographic accountability tooling by default. A
 
 ## What we work on
 
-The Aperintel product family spans intelligence platforms, engineering education, multi-agent personal operating systems, healthcare quality intelligence, academic operations, community SaaS, developer infrastructure, and trading intelligence. Some products are publicly available at their own domains. Others are in development or in active use with design partners. The unifying thread across all of them is provability and embedded accountability, not the vertical.
+Products across various sectors: technology, healthcare, education, finance, community, and ops. Some surfaces are publicly available at their own domains. Others are in development or in active use with design partners. The unifying thread across all of them is provability and embedded accountability, not the vertical.
 
 The flagship public surface is [aperintel.com](https://aperintel.com), which carries the Lumen streaming advisor, the intelligence maturity scorer, the analytical brief generator, and the project scoping workflow. The [Aperintel AI Academy](https://academy.aperintel.com) runs cohort-based engineering education on the same governance-first principles that shape the rest of the family.
 
