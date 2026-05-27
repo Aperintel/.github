@@ -2,13 +2,13 @@
 
 **Governance-first AI infrastructure for regulated industries.**
 
-Aperintel is an AI studio building the substrate, the platform, and the developer infrastructure that regulated firms need to prove what their AI did, to whom, when, and on what evidence. We ship open-source primitives that anyone can inspect and audit, and commercial products on top that make those primitives operationally useful for FCA-regulated firms, NHS trusts, and EU AI Act high-risk systems.
+Aperintel builds the substrate, the platform, and the developer infrastructure that regulated firms need to prove what their AI did, to whom, when, and on what evidence. We ship open-source primitives that anyone can inspect and audit, and commercial products on top that make those primitives operationally useful for FCA-regulated firms, NHS trusts, and EU AI Act high-risk systems.
 
 ## Live products
 
 | Product | Status | Surface |
 |---|---|---|
-| [Aperintel](https://aperintel.com) | Live | The studio's own front door |
+| [Aperintel](https://aperintel.com) | Live | The Aperintel front door |
 | [Aperintel AI Academy](https://academy.aperintel.com) | Live | Cohort-based AI engineering education |
 | [Aperintel AI Gateway](https://gateway.aperintel.com) | Live | Multi-provider AI router with per-request audit |
 | [TekkieStack](https://tekkiestack.com) | Live | Gamified coding education for ages 8 to 16 |
@@ -46,4 +46,4 @@ Security disclosure: open a GitHub Security Advisory on the affected repo, or em
 
 ---
 
-*Aperintel is based in London. The studio is one part of a larger thesis: the regulated firms deploying AI for decisions need a cryptographic substrate that proves what their AI did, before the EU AI Act high-risk obligations enforce on 2 August 2026.*
+*Aperintel is based in London. The work is one part of a larger thesis: the regulated firms deploying AI for decisions need a cryptographic substrate that proves what their AI did, before the EU AI Act high-risk obligations enforce on 2 August 2026.*
