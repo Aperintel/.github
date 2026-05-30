@@ -1,21 +1,21 @@
 # Aperintel
 
-**Autonomous platforms for enterprise intelligence.**
+**Intelligent systems and platforms for organisations of all types and sizes.**
 
-Aperintel is a software company that builds systems, not tools. We design and operate platforms across four layers. Intelligence: systems that surface, structure, and act on knowledge. Automation: workflows that hand the repetitive parts to machines and the judgement parts to people. Infrastructure: modular layers that compound in value across products. Systems: unified platforms instead of point solutions stitched together.
+Aperintel is a technology and AI company that builds intelligent systems. We design and operate software that surfaces and structures knowledge, hands the repetitive work to machines and the judgement to people, and ties products together so teams are not left stitching point solutions by hand. The products span technology, healthcare, education, finance, community, and ops.
 
-Every product we ship carries cryptographic accountability tooling by default. Audit chains, guardrail evaluation, scope-deviation detection, and multi-provider resilience sit in the substrate rather than bolted on at the end. This is what we mean by governance-first: the proof of what the system did is a property of the system, not a separate compliance product.
+Where it matters, accountability is built into the substrate rather than bolted on at the end: cryptographic audit chains, guardrail evaluation, scope-deviation detection, and multi-provider resilience. The proof of what a system did is a property of the system, not a separate compliance product.
 
 ## What we work on
 
 Products across various sectors: technology, healthcare, education, finance, community, and ops. Some surfaces are publicly available at their own domains. Others are in development or in active use with design partners. The unifying thread across all of them is provability and embedded accountability, not the vertical.
 
-The flagship public surface is [aperintel.com](https://aperintel.com), which carries the Lumen streaming advisor, the intelligence maturity scorer, the analytical brief generator, and the project scoping workflow. The [Aperintel AI Academy](https://academy.aperintel.com) runs cohort-based engineering education on the same governance-first principles that shape the rest of the family.
+The flagship public surface is [aperintel.com](https://aperintel.com), which carries the Lumen streaming advisor, the intelligence maturity scorer, the analytical brief generator, and the project scoping workflow. The [Aperintel AI Academy](https://academy.aperintel.com) runs cohort-based engineering education on the same accountability-first principles that shape the rest of the family.
 
 ## Open source projects
 
 - [**Nexuscone**](https://github.com/aperintel/nexuscone): tamper-evident append-only audit ledger with SHA-256 hash chain, optional Ed25519 signing, and optional Bitcoin anchoring via OpenTimestamps. Apache 2.0 on PyPI. The substrate underneath the Aperintel governance product family.
-- [**NovaBash**](https://github.com/aperintel/novabash): BYOK developer infrastructure platform. One workspace, one encrypted vault, one `.env`, every third-party service your stack runs on. Apache 2.0.
+- [**NovaBash**](https://github.com/aperintel/novabash): local-first developer secrets vault. API keys encrypted in the browser with AES-256-GCM under a passphrase, a 24-word recovery phrase, per-environment `.env` generation, a hash-chained local audit log, and an installable PWA, with no backend. Apache 2.0, live at [novabash.pages.dev](https://novabash.pages.dev).
 - [**Mini-Assistant-Swarm**](https://github.com/aperintel/Mini-Assistant-Swarm): fork-friendly personal subagent toolkit. VERIFIER-gated outputs, never sends on the operator's behalf, always writes to disk. Apache 2.0.
 - [**awesome-ai-governance**](https://github.com/aperintel/awesome-ai-governance): curated list of resources for building, shipping, and auditing AI in regulated environments. Regulations, standards, OSS primitives, governance platforms, security tools. CC0.
 - [**regulated-ai-checklist**](https://github.com/aperintel/regulated-ai-checklist): practitioner pre-deployment checklist for shipping AI in regulated environments. Governance, audit, security, data protection, monitoring, incident response, supply chain. CC BY 4.0.
