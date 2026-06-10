@@ -1,0 +1,7 @@
+# Aperintel org-level funding default.
+# Applies to any Aperintel repo that does not have its own FUNDING.yml.
+# Routes through the personal handle until org-level Sponsors is activated
+# (requires W-8BEN-E + Stripe Connect with Aperintel Ltd bank details).
+github: [osiabu]
+custom: ["https://aperintel.com"]
+
