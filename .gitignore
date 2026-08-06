@@ -1,0 +1,10 @@
+# Planning files stay local, never commit
+*.txt
+CLAUDE.md
+.claude/
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
